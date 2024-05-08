@@ -1,0 +1,122 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.willy{
+    padding-left: 400px;
+    padding-bottom: -300px;
+    background-image: url(img/volcanic-mountain-evenning-light-reflected-calm-waters-lake_35766-2602.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.todo-input{
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(110, 116, 118);
+    width: 300px;
+    box-shadow: 3px 3px 3px 3px rgb(110, 116, 118);
+    border: none;
+    
+}
+
+.todo-input:hover{
+    background-color: rgb(202, 239, 255);
+}
+
+
+.todo-button{
+    background-color: rgb(6, 49, 6);
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px 3px rgb(110, 116, 118);
+    box-shadow: 3px 3px 3px 3px rgb(110, 116, 118);
+    color: white;
+    border: none;
+    
+}
+
+.todo-button:hover{
+    background-color: rgb(14, 79, 104);
+}
+
+body{
+    padding: 200px;
+}
+
+.tutu{
+    margin-left: -1px;
+    color: whitesmoke;
+}
+
+.tutu:hover{
+    background-color: rgb(14, 79, 104);
+}
+
+.tutu{
+    background-color: rgb(4, 62, 4);
+    height: 120px;
+    width: 462px;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.were{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 500px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 10px 10px rgb(110, 116, 118);
+    
+}
+
+.way{
+    width: 500px;
+    background-color: rgb(15, 80, 15);
+    height: 400px;
+    padding: 100px;
+    animation: ro;
+    animation-duration: 9s;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(110, 116, 118);
+}
+
+
+@keyframes ro {
+0%{background-color: #127268; left:0px; top:0px}
+25%{background-color: rgb(49, 24, 124); left:200px; top:0px}
+
+}
+
+.way:hover{
+    background-color: rgb(14, 79, 104);
+}
+
+
+.way{
+    animation: we;
+    animation-duration: 9s;
+}
+
+@keyframes we {
+    from{box-shadow: 3px 3px 3px 3px rgb(37, 11, 114);}
+    to{box-shadow: 3px 3px 3px 3px rgb(5, 49, 51);}
+
+ }
+
+.we{
+    margin-top: -300px;
+    padding: 100px;
+    color: white;
+    font-size: x-large;
+}
+
+th{
+    background-color: rgb(6, 48, 10);
+    width: -90px;
+}
